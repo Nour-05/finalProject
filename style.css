@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f9f6f2;
+}
+
+h1 {
+    color: #6b4f4f;
+}
+
+form {
+    margin: 20px;
+}
+
+select, input[type="submit"] {
+    padding: 8px;
+    margin: 10px;
+}
