@@ -16,7 +16,6 @@ services:
 
   db:
     image: mysql
-    container_name: db
     restart: always
     env_file: .env
     volumes:
