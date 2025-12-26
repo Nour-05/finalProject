@@ -15,4 +15,4 @@ curl -X POST \
   "$JENKINS_URL/job/$JOB_NAME/build" \
   --user "$JENKINS_USER:$JENKINS_TOKEN"
 
-echo "✔ Push + Jenkins trigger done"
+echo "Push + Jenkins trigger done"

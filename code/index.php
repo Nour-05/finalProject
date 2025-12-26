@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Coffee Shop</title>
+    <title>Coffee Shop Menu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to the Coffee Shop ☕</h1>
+    <h1>Welcome to Nour's Coffee Shop ☕</h1>
     <form method="POST">
         <label for="drink">Choose a drink:</label>
         <select name="drink">
