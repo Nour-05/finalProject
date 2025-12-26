@@ -11,9 +11,9 @@ CREATE TABLE IF NOT EXISTS drinks (
 
 -- Insert sample drinks
 INSERT INTO drinks (name, price) VALUES
-('Espresso', 11.50),
-('Latte', 14.50),
-('Cappuccino', 14.50),
-('Americano', 14.00),
-('Mocha', 15.00)
+('Espresso', 8.0),
+('Caffe Latte', 10.0),
+('Cappuccino', 10.0),
+('Americano', 9.00),
+('White Mocha', 11.00)
 ON DUPLICATE KEY UPDATE price=VALUES(price);
