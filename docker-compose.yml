@@ -5,7 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: app-FE
     ports:
       - "8081:80"
     depends_on:
