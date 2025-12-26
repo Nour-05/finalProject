@@ -1,6 +1,6 @@
 -- Create database if not exists
-CREATE DATABASE IF NOT EXISTS coffeeapp;
-USE coffeeapp;
+CREATE DATABASE IF NOT EXISTS app_db;
+USE app_db;
 
 -- Drinks table
 CREATE TABLE IF NOT EXISTS drinks (
