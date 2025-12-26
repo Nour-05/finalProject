@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: app-FE
     ports:
       - "8081:80"
     depends_on:
@@ -15,6 +16,7 @@ services:
 
   db:
     image: mysql
+    container_name: db
     restart: always
     env_file: .env
     volumes:
