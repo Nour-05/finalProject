@@ -29,7 +29,7 @@
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
-            echo "<h2>$drink costs " . $row['price'] . "shekel</h2>";
+            echo "<h2>$drink costs " . $row['price'] . " ils</h2>";
         }
     }
     ?>
