@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   app:
@@ -15,13 +15,14 @@ services:
       - ./code:/var/www/html
 
   db:
-    image: mysql
+    image: mysql:9.5.0
     container_name: db
     restart: always
     env_file: .env
+    command: --default-authentication-plugin=mysql_native_password
     volumes:
       - db_data:/var/lib/mysql
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./init.sql:/docker-entrypoint-initdb.d
 
 volumes:
   db_data:
