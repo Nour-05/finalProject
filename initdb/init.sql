@@ -18,7 +18,5 @@ INSERT INTO drinks (name, price) VALUES
 ('Cappuccino', 10.0),
 ('Americano', 9.0),
 ('Pistachio Latte', 12.0),
-('Caramel Macchiato', 11.0),
-('Mocha', 11.0),
 ('White Mocha', 11.0)
 ON DUPLICATE KEY UPDATE price=VALUES(price);
