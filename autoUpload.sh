@@ -2,7 +2,7 @@
 
 REPO_DIR="/home/nour/finalProject"
 JENKINS_URL="http://localhost:8080"
-JOB_NAME="testJob2"
+JOB_NAME="testJob1"
 JENKINS_USER="nour"
 JENKINS_TOKEN="11e86fef606326f4735580a7edb81b91a8"
 
