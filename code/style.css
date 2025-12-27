@@ -9,11 +9,42 @@ h1 {
     color: #6b4f4f;
 }
 
+h2 {
+    color: #4a2c2a;
+    margin-top: 20px;
+}
+
 form {
     margin: 20px;
 }
 
-select, input[type="submit"] {
+select,
+input[type="submit"] {
     padding: 8px;
     margin: 10px;
+    border-radius: 5px;
+}
+
+select {
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #6b4f4f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #8b6f6f;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
